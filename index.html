@@ -606,16 +606,127 @@ buttons.forEach(btn => {
     frameborder="0" allowfullscreen></iframe>
 
     <!-- POSTS EN FILA -->
- <div class="social-row" style="display:flex;justify-content:center;gap:25px;flex-wrap:wrap;margin-top:25px;">
+ <style>
+.tweet-box {
+    background: #f9f9f9;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    max-width: 500px;
+    margin: 20px auto;
+    color: #0f1419;
+}
+.tweet-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+.tweet-header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.tweet-header strong {
+    font-size: 15px;
+}
+.tweet-header span {
+    color: #536471;
+    font-size: 14px;
+}
+.tweet-content {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.tweet-footer {
+    color: #536471;
+    font-size: 13px;
+}
+.tweet-footer a {
+    color: #1DA1F2;
+    text-decoration: none;
+    font-weight: bold;
+}
+</style>
 
-<div class="social-row" style="display:flex;justify-content:center;gap:25px;flex-wrap:wrap;margin-top:25px;">
-
-    <!-- Tweet 1 -->
-    <div class="social-item" style="width:390px;min-height:500px;background:white;border-radius:14px;padding:12px;box-shadow:0 4px 14px rgba(0,0,0,0.18);overflow:hidden;">
-        <blockquote class="twitter-tweet" style="margin:0;">
-            <a href="https://x.com/viralnewsnyc/status/1947815455290229007"></a>
-        </blockquote>
+<div class="tweet-box">
+    <div class="tweet-header">
+        <img src="https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png" alt="Viral News NYC">
+        <div>
+            <strong>Viral News NYC</strong> <span>@ViralNewsNYC · 22 jul. 2025</span>
+        </div>
     </div>
+    <div class="tweet-content">
+        <p><strong>Midtown Manhattan EXPOSED:</strong> Homelessness, Drug Use, and Chaos in Every Corner.</p>
+        <p>Yesterday in Midtown Manhattan, I witnessed the harsh reality most people ignore. Homeless individuals sleeping on the streets, using newspapers to clean themselves, openly injecting drugs and smoking.</p>
+    </div>
+    <div class="tweet-footer">
+        <a href="https://x.com/viralnewsnyc/status/1947815455290229007" target="_blank">Ver más en X</a>
+    </div>
+</div>
+
+<style>
+.tweet-box {
+    background: #f9f9f9;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    max-width: 500px;
+    margin: 20px auto;
+    color: #0f1419;
+}
+.tweet-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+.tweet-header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.tweet-header strong {
+    font-size: 15px;
+}
+.tweet-header span {
+    color: #536471;
+    font-size: 14px;
+}
+.tweet-content {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.tweet-footer {
+    color: #536471;
+    font-size: 13px;
+}
+.tweet-footer a {
+    color: #1DA1F2;
+    text-decoration: none;
+    font-weight: bold;
+}
+</style>
+
+<div class="tweet-box">
+    <div class="tweet-header">
+        <img src="https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png" alt="I Meme Therefore I Am">
+        <div>
+            <strong>I Meme Therefore I Am 🇺🇸</strong> <span>@ImMeme0 · 16 mar. 2026</span>
+        </div>
+    </div>
+    <div class="tweet-content">
+        <p><strong>Welcome to NYC..</strong></p>
+        <p>Train tracks at a Bronx subway station are littered with needles and orange caps. Residents say that drug use has spiraled out of control, with people openly injecting themselves during the day in the middle of the station.</p>
+    </div>
+    <div class="tweet-footer">
+        <a href="https://x.com/ImMeme0/status/2033741485338751225" target="_blank">Ver más en X</a>
+    </div>
+</div>
 
     <!-- Tweet 2 -->
     <div class="social-item" style="width:390px;min-height:500px;background:white;border-radius:14px;padding:12px;box-shadow:0 4px 14px rgba(0,0,0,0.18);overflow:hidden;">
